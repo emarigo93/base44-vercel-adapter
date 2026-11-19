@@ -45,7 +45,7 @@ Si la app usa algo de esta lista, esa llamada da un error claro ("no está dispo
 
 ## Mantenimiento
 
-- Versión estable: la etiqueta `v1`. Los cambios grandes salen como `v2`, así ningún sitio se rompe por sorpresa.
+- Versión estable: la rama `v1` (los sitios clonan esa rama). Los cambios se prueban en `main` y se pasan a `v1` cuando están listos; los cambios grandes salen como `v2`, así ningún sitio se rompe por sorpresa.
 - Si Base44 cambia su plantilla y el build falla, Vercel mantiene publicada la última versión buena. Se ajusta el adaptador y se vuelve a desplegar.
 
 ## Pasar datos de un proyecto anterior
