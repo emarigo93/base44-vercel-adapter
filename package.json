@@ -1,0 +1,8 @@
+{
+  "name": "base44-vercel-adapter",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Publica apps de Base44 (TanStack Start) en Vercel con Postgres y Resend, sin depender de Base44 en producción.",
+  "bin": { "base44-vercel-apply": "./apply.mjs" }
+}
